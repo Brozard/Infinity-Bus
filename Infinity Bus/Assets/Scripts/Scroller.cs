@@ -2,9 +2,8 @@
 using System.Collections;
 
 public class Scroller : MonoBehaviour {
-	
-	public float speed = 0;
 
+	public Renderer rend;
 	public float speed;
 	public float slowDown;
 	public float offset;
